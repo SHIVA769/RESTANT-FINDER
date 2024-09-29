@@ -13,6 +13,7 @@ import { useRouter } from 'next/navigation';
 import { useContext, useEffect, useState } from 'react'
 
 export default function Home() {
+
   const {data:session}=useSession();
   const [category,setCategory]=useState();
   const [radius,setRadius]=useState(2500);
